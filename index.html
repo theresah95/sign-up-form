@@ -31,22 +31,27 @@
                 </span>
                 <form action="output.txt" method="post">
                     <ul>
-                        <li class="form-fields">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="fname">
-                        </li>
-                        <li class="form-fields">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lname">
-                        </li>
-                        <li class="form-fields">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email"> 
-                        </li>
-                        <li class="form-fields">
-                            <label for="phone">Phone Number</label>
-                            <input type="text" id="phone" name="phone">
-                        </li>
+                        <fieldset id="name-fields">
+                            <li class="form-fields">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="fname">
+                            </li>
+                            <li class="form-fields">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lname">
+                            </li>
+                        </fieldset>
+                        <fieldset id="contact-fields">
+                            <li class="form-fields">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email"> 
+                            </li>
+                            <li class="form-fields">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="phone" name="phone">
+                            </li>
+                        </fieldset>
+                        <fieldset id="password-fields">
                         <li class="form-fields">
                             <label for="password">Password</label>
                             <input type="password" id="password" name="password">
@@ -55,6 +60,7 @@
                             <label for="confirm_password">Confirm Password</label>
                             <input type="password" id="confirm_password" name="confirm_password">
                         </li>
+                    </fieldset>
                     </ul>
                     
                 </form>
