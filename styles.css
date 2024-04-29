@@ -11,3 +11,12 @@
     width: 30%;
 }
 
+ul {
+    list-style: none;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
