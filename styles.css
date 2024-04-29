@@ -34,3 +34,8 @@ fieldset {
     flex-direction: column;
     text-transform: uppercase;
 }
+
+#submit-section {
+    display: flex;
+    flex-direction: column;
+}
