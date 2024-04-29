@@ -5,11 +5,18 @@
     height: 100vh;
 
 }
+
+/* Left Side */
 #content-left {
     background-image: url("cherry-blossom.jpeg");
     background-color: lightpink;
-    width: 30%;
+    width: 40%;
 }
+
+
+
+
+/*Right Side */
 
 #content-right {
     display: flex;
