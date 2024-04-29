@@ -33,5 +33,4 @@ fieldset {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    padding: 10px;
 }
