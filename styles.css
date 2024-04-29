@@ -1,0 +1,12 @@
+
+#content-box {
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+#content-left {
+    background-image: url("cherry-blossom.jpeg");
+    background-color: lightpink;
+    width: 30%;
+}
