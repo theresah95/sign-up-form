@@ -8,12 +8,26 @@
 
 /* Left Side */
 #content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url("cherry-blossom.jpeg");
     background-color: lightpink;
     width: 40%;
 }
 
+#content-left h1 {
+    color: hotpink;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
 
+#title-banner {
+    background-color: white;
+    opacity: 80%;
+    text-align: center;
+    margin-top: 50%;
+}
 
 
 /*Right Side */
