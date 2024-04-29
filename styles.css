@@ -12,23 +12,26 @@
 }
 
 #content-right {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding: 0px;
 }
 
 fieldset {
     display: flex;
     border: none;
-    justify-content: space-around;
 }
 
 .form-fields {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    padding: 10px;
 }
