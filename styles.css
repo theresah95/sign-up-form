@@ -37,7 +37,7 @@
 }
 
 
-/*Right Side */
+/*Right Side*/
 
 #content-right {
     display: flex;
@@ -49,32 +49,60 @@
 #intro-section {
     font-size: 1.5rem;
     width: 80%;
+    margin-top: 5%;
+    padding-bottom: 3rem;
+}
 
+/*Form Section*/
+
+#form-section span {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    padding: 0px;
+    margin: 0px;
 }
 
 fieldset {
     display: flex;
     border: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .form-fields {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    font-size: 1rem;
+    width: 200px;
+    height: 2rem;
+    padding-top: 1rem;
+    padding-right: 4rem;
+    color: 	#505050;
 }
 
+
+/*Submit Section*/
 #submit-section {
     display: flex;
     flex-direction: column;
+    padding-top: 3rem;
 }
 
 #submit-button {
-    font-size: 1.3rem;
-    width: 20%;
+    background-color: rgb(248, 77, 127);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 25%;
+    padding: .7rem;
+    margin-bottom: 1.5rem;
 }
