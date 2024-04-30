@@ -56,6 +56,13 @@
 
 /*Form Section*/
 
+#form-section input {
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    min-height: 25px;
+    font-size: 1rem;
+}
+
 #form-section span {
     font-size: 1.5rem;
     font-weight: bold;
