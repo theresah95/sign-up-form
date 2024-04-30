@@ -59,7 +59,7 @@
 #form-section input {
     border-color: #E5E7EB;
     border-radius: 5px;
-    min-height: 25px;
+    padding: 5px;
     font-size: 1rem;
 }
 
@@ -94,6 +94,10 @@ fieldset {
     padding-top: 2rem;
     padding-right: 4rem;
     color: 	#505050;
+}
+
+#password:invalid, #confirm_password:invalid  {
+    border: 1px solid crimson;
 }
 
 
